@@ -14,7 +14,11 @@
 #---------------------------------- Content ---------------------------------#
 
 #begin gameFont.spritefont
-/copy:gameFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:gameFont.spritefont
 
 #begin Images/Background/hollow_knight_background.png
 /importer:TextureImporter

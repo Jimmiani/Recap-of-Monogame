@@ -92,7 +92,7 @@ namespace Recap_of_Monogame
             _spriteBatch.Draw(knightTexture, knightRect, null, Color.White, 0f, Vector2.Zero, SpriteEffects.FlipHorizontally, 0f);
             _spriteBatch.Draw(platformTexture, platformRect, Color.White);
             _spriteBatch.Draw(cloudTexture, cloudRect, Color.White * 0.9f);
-            _spriteBatch.DrawString(gameFont, new string("Hollow Knight"), new Vector2(100, 550), Color.White);
+            _spriteBatch.DrawString(gameFont, new string("Hollow Knight"), new Vector2(40, 630), Color.White);
             _spriteBatch.End();
 
             base.Draw(gameTime);
