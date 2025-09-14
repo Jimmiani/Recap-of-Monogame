@@ -135,7 +135,7 @@ namespace Recap_of_Monogame
             
             for (int i = 0; i < featherTextures.Count; i++)
             {
-                _spriteBatch.Draw(featherTextures[i], featherRects[i], null, Color.White, featherRects[i].Width, new Vector2(featherTextures[i].Width / 2, featherTextures[i].Width / 2), SpriteEffects.None, 0);
+                _spriteBatch.Draw(featherTextures[i], featherRects[i], null, Color.White, featherRects[i].Width /*Rotation. Needed a value to rotate the feathers by, and this one was already randomized with each feather.*/, new Vector2(featherTextures[i].Width / 2, featherTextures[i].Width / 2), SpriteEffects.None, 0);
             }
             
             _spriteBatch.Draw(radianceTexture, radianceRect, Color.White);
