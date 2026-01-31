@@ -86,7 +86,7 @@ namespace Recap_of_Monogame
             sunDialTexture = Content.Load<Texture2D>("Images/Radiance/Sun Dial");
             backgroundTexture = Content.Load<Texture2D>("Images/Background/hollow_knight_background");
             cloudTexture = Content.Load<Texture2D>("Images/Clouds/blurry_cloud");
-            platformTexture = Content.Load<Texture2D>("Images/Platforms/R Plat Wide Idle_000");
+            platformTexture = Content.Load<Texture2D>("Images/Platforms/platform");
             gameFont = Content.Load<SpriteFont>("gameFont");
 
             for (int i = 1; i <= 3; i++)
